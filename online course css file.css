@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* Header Styles */
+header {
+  background-color: #4a90e2; /* Blue */
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta {
+  background-color: #e94e77; /* Pink */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* About Section Styles */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Registration and Contact Form Styles */
+.registration,
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #333; /* Dark background */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button Styles */
+button {
+  background-color: #e94e77; /* Pink */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #4a90e2; /* Blue */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Background Colors for Different Pages */
+.home-bg {
+  background-color: #f39c12; /* Orange */
+}
+
+.about-bg {
+  background-color: #27ae60; /* Green */
+}
+
+.register-bg {
+  background-color: #2980b9; /* Dark Blue */
+}
+
+.contact-bg {
+  background-color: #8e44ad; /* Purple */
+}
